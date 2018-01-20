@@ -5941,3 +5941,38 @@ textarea.form-control {
   height: 50%;
   width: 50%;
 }
+
+.logo {
+  text-align: center;
+}
+
+.smaller {
+  height: 50%;
+  width: 50%;
+}
+
+.littlesmaller{
+  height: 100%;
+  width: 100%;
+}
+
+.info-icon {
+  text-align: center;
+}
+.info-icon .icon {
+  font-size: 62px;
+  line-height: 66px;
+  color: #fec0aa;
+  margin-bottom: 10px;
+}
+.info-icon .description {
+  margin-top: 15px;
+  color: #777777;
+}
+
+.btn__border{
+  background-color: white;
+  color: gray;
+  border-color: gray;
+  margin-top: 35px;
+}
