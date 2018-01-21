@@ -193,7 +193,7 @@ blockquote small {
 
 /*     General overwrite     */
 body {
-  color: #66615b;
+  color: white;
   font-size: 14px;
   font-weight: 300;
   font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
@@ -2024,7 +2024,7 @@ textarea.form-control {
   position: absolute;
 }
 .navbar.navbar-transparent {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 .navbar .logo-container {
   margin-top: 5px;
@@ -5975,4 +5975,8 @@ textarea.form-control {
   color: gray;
   border-color: gray;
   margin-top: 35px;
+}
+
+.graytext{
+  color: gray;
 }
