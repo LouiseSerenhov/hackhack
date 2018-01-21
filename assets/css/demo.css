@@ -77,6 +77,15 @@
     background-attachment: fixed;
     margin-top:0;
 }
+
+.navigation-hack{
+    background-image: url('../img/sthlmb.jpg');
+    background-position: center center;
+    background-size: cover;
+  
+    margin-top:0;
+}
+
 #notifications{
     background-color: #FFFFFF;
     display: block;
