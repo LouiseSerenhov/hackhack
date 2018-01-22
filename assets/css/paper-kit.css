@@ -3254,14 +3254,7 @@ textarea.form-control {
   .card.card-just-text .dropdown .dropdown-menu:before,
   .card-just-text .dropdown .dropdown-menu:before,
   .dropdown-btn .dropdown-menu:before {
-    border-bottom: 11px solid #F1EAE0;
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
-    content: "";
-    display: inline-block;
-    position: absolute;
-    right: 12px;
-    top: -11px;
+
   }
 
   #dropdown-row .dropdown .dropdown-menu:before {
@@ -5979,4 +5972,8 @@ textarea.form-control {
 
 .graytext{
   color: gray;
+}
+
+.h3__space{
+  padding-bottom: 30px;
 }

@@ -79,11 +79,10 @@
 }
 
 .navigation-hack{
+   
     background-image: url('../img/sthlmb.jpg');
     background-position: center center;
     background-size: cover;
-    opacity: 3;
-  
     margin-top:0;
 }
 
