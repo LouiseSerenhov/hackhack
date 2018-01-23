@@ -273,3 +273,21 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
+// $(function() { var logo = $(".whitelogo"); $(window).scroll(function() {
+//     var scroll = $(window).scrollTop();
+    
+//         if (scroll >= 500) {
+//           if(!logo.hasClass("blacklogo")) {
+//             logo.hide();
+//             logo.removeClass('whitelogo').addClass("blacklogo").fadeIn( "slow");
+//           }
+//         } else {
+//           if(!logo.hasClass("whitelogo")) {
+//             logo.hide();
+//             logo.removeClass("blacklogo").addClass('whitelogo').fadeIn( "slow");
+//           }
+//         }
+    
+//     });
+//     });
