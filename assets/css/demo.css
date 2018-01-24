@@ -84,7 +84,17 @@
     background-position: center center;
     background-size: cover;
     margin-top:0;
+    padding-bottom: 50px;
 }
+
+.navigation-whoweare{
+    
+     background-image: url('../img/sthlmb.jpg');
+     background-position: center center;
+     background-size: cover;
+     margin-top:0;
+   
+ }
 
 #notifications{
     background-color: #FFFFFF;

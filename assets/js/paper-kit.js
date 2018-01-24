@@ -274,20 +274,20 @@ function debounce(func, wait, immediate) {
 	};
 };
 
-// $(function() { var logo = $(".whitelogo"); $(window).scroll(function() {
-//     var scroll = $(window).scrollTop();
+$(function() { var logo = $(".whitelogo"); $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
     
-//         if (scroll >= 500) {
-//           if(!logo.hasClass("blacklogo")) {
-//             logo.hide();
-//             logo.removeClass('whitelogo').addClass("blacklogo").fadeIn( "slow");
-//           }
-//         } else {
-//           if(!logo.hasClass("whitelogo")) {
-//             logo.hide();
-//             logo.removeClass("blacklogo").addClass('whitelogo').fadeIn( "slow");
-//           }
-//         }
+        if (scroll >= 490) {
+          if(!logo.hasClass("blacklogo")) {
+            logo.hide();
+            logo.removeClass('whitelogo').addClass("blacklogo").fadeIn( "");
+          }
+        } else {
+          if(!logo.hasClass("whitelogo")) {
+            logo.hide();
+            logo.removeClass("blacklogo").addClass('whitelogo').fadeIn( "");
+          }
+        }
     
-//     });
-//     });
+    });
+    });
