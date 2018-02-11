@@ -3188,6 +3188,8 @@ textarea.form-control {
     padding-right: 5px;
   }
 
+  
+
   .navbar-search-form {
     display: none;
   }
@@ -3298,6 +3300,11 @@ textarea.form-control {
   body > .navbar-collapse.collapse {
     display: none !important;
   }
+
+
+
+
+  
 }
 #navbar .dropdown-menu .dropdown-item {
   padding: 3px 1.5rem !important;
@@ -4210,6 +4217,8 @@ textarea.form-control {
     font-size: 12px;
   }
 
+
+  
   h6 {
     font-size: 1em;
   }
@@ -4793,6 +4802,8 @@ textarea.form-control {
     -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
+
+  
   .navbar-collapse ul {
     position: relative;
     z-index: 3;
@@ -6006,5 +6017,26 @@ textarea.form-control {
 
 .hackburger {
 color: none !important; 
+}
+
+.twocolumns{
+  column-count: 2;
+}
+
+.borderinfo {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 30px;
+} 
+
+
+
+
+@media (max-width: 1000px)  {
+
+  .twocolumns{
+    column-count: 1;
+  }
 
 }
