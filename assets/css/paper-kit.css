@@ -1934,7 +1934,7 @@ textarea.form-control {
   -webkit-transition: all 0.4s;
   padding: 0;
   background: #FFFFFF;
-  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+
 }
 .navbar .navbar-toggler-right {
   float: right;
@@ -2361,7 +2361,7 @@ textarea.form-control {
   color: #333333;
 }
 
-.navbar-transparent {
+. {
   background: transparent !important;
   border-bottom: 80px solid transparent;
   box-shadow: none;
@@ -6030,6 +6030,13 @@ color: none !important;
   border-radius: 30px;
 } 
 
+.navigation-example{
+  background-image: url('../img/sthlm.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:50px;
+}
 
 
 
@@ -6040,3 +6047,11 @@ color: none !important;
   }
 
 }
+
+@media (max-width: 770px)  {
+  
+.buttpad{
+  margin-bottom: 40px;
+}
+  
+  }
