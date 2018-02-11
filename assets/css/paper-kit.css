@@ -2361,7 +2361,7 @@ textarea.form-control {
   color: #333333;
 }
 
-. {
+.navbar-transparent{
   background: transparent !important;
   border-bottom: 80px solid transparent;
   box-shadow: none;
@@ -6023,6 +6023,10 @@ color: none !important;
   column-count: 2;
 }
 
+.threecolumns {
+  column-count: 3;
+}
+
 .borderinfo {
   border-style: solid;
   border-width: 2px;
@@ -6035,7 +6039,7 @@ color: none !important;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  height:50px;
+
 }
 
 
