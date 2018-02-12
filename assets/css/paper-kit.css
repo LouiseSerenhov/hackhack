@@ -6042,7 +6042,12 @@ color: none !important;
 
 }
 
-
+.openphoto {
+  height: 40%;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
 
 @media (max-width: 1000px)  {
 
