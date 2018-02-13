@@ -288,6 +288,23 @@ $(function() { var logo = $(".whitelogo"); $(window).scroll(function() {
             logo.removeClass("blacklogo").addClass('whitelogo').fadeIn( "");
           }
         }
-    
     });
+    });
+
+    $(function() { var logo = $(".borderinfo"); $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        
+            if (scroll >= 200) {
+              if(!logo.hasClass("borderinfodark")) {
+                logo.hide();
+                logo.removeClass('borderinfo').addClass("borderinfodark").fadeIn( "");
+              }
+            } else {
+              if(!logo.hasClass("borderinfo")) {
+                logo.hide();
+                logo.removeClass("borderinfodark").addClass('borderinfo').fadeIn( "");
+              }
+            }
+        
+        });
     });
