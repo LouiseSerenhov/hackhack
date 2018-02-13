@@ -6046,7 +6046,8 @@ color: none !important;
   height: 40%;
   width: 40%;
   margin: auto;
-  padding-top: 50px;
+  margin-top: 50px;
+  border-radius: 30px;
 }
 
 @media (max-width: 1000px)  {
