@@ -6091,3 +6091,10 @@ color: none !important;
 }
   
   }
+
+  @media screen and (device-aspect-ratio: 40/71) {
+.wrapper {
+  width: 110%;
+}
+
+  }
