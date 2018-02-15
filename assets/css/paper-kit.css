@@ -4820,6 +4820,7 @@ textarea.form-control {
     font-size: 12px;
     line-height: 1.5em;
     padding: 15px 0;
+    border-style: none;
   }
   .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover, .navbar-collapse .navbar-nav > .nav-item > .nav-link:active {
     color: #403D39 !important;
@@ -6037,7 +6038,7 @@ color: none !important;
 .borderinfodark {
   border-style: solid;
   border-width: 2px;
-  border-color: white;
+  border-color: gray;
   border-radius: 30px;
 }
 
