@@ -6089,6 +6089,18 @@ color: none !important;
 .button_padding{
   margin-bottom: 40px;
 }
+
+.title.text-center{
+  margin-bottom: 0;
+}
+
+.title{
+  min-height: 0;
+}
+
+.logo__picture {
+  padding: 30px;
+}
   
   }
 
