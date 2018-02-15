@@ -6115,3 +6115,9 @@ color: none !important;
 }
 
   }
+
+  @media screen and (device-aspect-ratio: 375/667) {
+    .wrapper {
+    width: 110%;
+    }
+  }
