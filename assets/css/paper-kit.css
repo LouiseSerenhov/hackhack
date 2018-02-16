@@ -6120,6 +6120,9 @@ color: none !important;
   .newscontainer {
     max-width: 200px;
   }
+.maxnewsphone{
+  max-width: 200px;
+}
 
 }
 
