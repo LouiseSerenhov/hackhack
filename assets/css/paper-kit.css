@@ -6095,6 +6095,34 @@ color: none !important;
   right: -150px;
 }
 
+@media (max-width: 1000px)  {
+  .carousel-control-prev {
+    left: -100px;
+  }
+  
+  .carousel-control-next {
+    right: -100px;
+  }
+  .newscontainer {
+    max-width: 300px;
+  }
+
+}
+
+@media (max-width: 500px)  {
+  .carousel-control-prev {
+    left: -50px;
+  }
+  
+  .carousel-control-next {
+    right: -50px;
+  }
+  .newscontainer {
+    max-width: 200px;
+  }
+
+}
+
 
 @media (max-width: 1000px)  {
 
