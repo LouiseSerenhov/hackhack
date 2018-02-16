@@ -6083,6 +6083,18 @@ color: none !important;
   color: white !important;
 }
 
+.newscontainer {
+  max-width: 600px;
+}
+
+.carousel-control-prev {
+  left: -150px;
+}
+
+.carousel-control-next {
+  right: -150px;
+}
+
 
 @media (max-width: 1000px)  {
 
