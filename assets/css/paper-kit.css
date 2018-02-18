@@ -6028,6 +6028,16 @@ color: none !important;
   column-count: 3;
 }
 
+.styrgrupp {
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.styrgrupppadding {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .borderinfo {
   border-style: solid;
   border-width: 2px;
