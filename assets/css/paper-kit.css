@@ -6031,11 +6031,13 @@ color: none !important;
 .styrgrupp {
   max-width: 200px;
   min-width: 200px;
+
 }
 
 .styrgrupppadding {
   margin-top: 20px;
   margin-bottom: 40px;
+  list-style: none;
 }
 
 .borderinfo {
