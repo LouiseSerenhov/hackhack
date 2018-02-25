@@ -6032,13 +6032,36 @@ color: none !important;
 .styrgrupp {
   max-width: 200px;
   min-width: 200px;
+}
 
+.challenges {
+  padding: 50px;
+  max-width: 230px;
+}
+
+.chall{
+  border: 2px solid gray;
+  border-radius: 12px;
+  margin-bottom: 50px;
+ 
 }
 
 .styrgrupppadding {
   margin-top: 20px;
   margin-bottom: 40px;
   list-style: none;
+}
+
+.challengepadding{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  list-style: none;
+  color: gray;
+}
+
+.challenge-description {
+  color: rgb(58, 58, 58);
+  margin-bottom: 60px;
 }
 
 .borderinfo {
