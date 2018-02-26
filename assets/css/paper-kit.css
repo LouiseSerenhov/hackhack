@@ -6217,3 +6217,12 @@ color: none !important;
     width: 110%;
     }
   }
+  .nc-minimal-down {
+    font-size: 35px;
+  }
+  
+  .arrow{
+    position: relative;
+    bottom: -150px;
+    
+  }
