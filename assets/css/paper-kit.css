@@ -6099,7 +6099,9 @@ color: none !important;
   opacity: 0.7;
 }
 
-
+.buttons__style {
+  display: flex;
+}
 
 .navigation-example{
   background-image: url('../img/sthlm.jpg');
@@ -6210,6 +6212,10 @@ color: none !important;
 
 .logo__picture {
   padding: 30px;
+}
+
+.buttons__style {
+  flex-direction: column;
 }
   
   }
