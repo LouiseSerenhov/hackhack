@@ -6156,6 +6156,18 @@ color: none !important;
   right: -150px;
 }
 
+
+  
+.nc-minimal-down {
+  font-size: 35px;
+}
+
+.arrow{
+  position: relative;
+  bottom: -150px;
+  
+}
+
 @media (max-width: 1000px)  {
   .carousel-control-prev {
     left: -100px;
@@ -6220,6 +6232,8 @@ color: none !important;
   
   }
 
+/* Whole body for index.html IPHONE 5 */
+
   @media screen and (device-aspect-ratio: 40/71) {
 .homebodysm {
   width: 128%;
@@ -6232,17 +6246,43 @@ color: none !important;
 
   }
 
+
+/* Whole body for index.html IPHONE 6 */
+
   @media screen and (device-aspect-ratio: 375/667) {
     .homebodysm {
     width: 110%;
     }
   }
-  .nc-minimal-down {
-    font-size: 35px;
-  }
   
-  .arrow{
-    position: relative;
-    bottom: -150px;
-    
+  /* Whole body for index.html IPHONE X */
+  
+  @media only screen 
+  and (device-width : 375px) 
+  and (device-height : 812px) 
+  and (-webkit-device-pixel-ratio : 3) { 
+    .homebodysm {
+      width: 110%;
+      }
+
   }
+
+/* Whole body for index.html Galaxy S5 */
+
+  @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .homebodysm {
+      width: 113%;
+      }
+}
+
+/* Whole body for index.html Iphone 4 */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)
+{
+  .homebodysm {
+    width: 129%;
+    }
+}
