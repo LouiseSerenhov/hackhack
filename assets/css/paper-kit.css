@@ -6230,6 +6230,12 @@ color: none !important;
   flex-direction: column;
 }
   
+iframe {
+  width: 70%;
+  height: 70%;
+}
+
+
   }
 
 /* Whole body for index.html IPHONE 5 */
