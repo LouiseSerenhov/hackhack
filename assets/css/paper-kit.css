@@ -6092,7 +6092,9 @@ color: none !important;
 .infobuttonfix__a {
   color: white;
 }
-
+.infobuttonfix__b {
+  color: black;
+}
 .infobuttonfix:hover {
   color: gray;
   background-color: white;
