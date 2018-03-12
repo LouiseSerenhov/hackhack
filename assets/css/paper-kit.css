@@ -4111,6 +4111,7 @@ textarea.form-control {
   padding: 20px;
   text-align: center;
   display: block !important;
+
 }
 .modal-header.no-border-header {
   border-bottom: 0 none !important;
@@ -6297,4 +6298,8 @@ iframe {
   .homebodysm {
     width: 129%;
     }
+}
+
+.challCol1{
+  color: blue;
 }
