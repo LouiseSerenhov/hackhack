@@ -6175,6 +6175,14 @@ color: none !important;
   
 }
 
+
+#timer {
+  text-align: center;
+  font-size: 25px;
+  margin-top:0px;
+}
+
+
 @media (max-width: 1000px)  {
   .carousel-control-prev {
     left: -100px;
