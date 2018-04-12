@@ -6312,6 +6312,16 @@ iframe {
     }
 }
 
+
+  /* Internet Explorer  */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #logo {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+
 .challCol1{
   color: blue;
 }
