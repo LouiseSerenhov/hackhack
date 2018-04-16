@@ -6128,6 +6128,26 @@ color: none !important;
 
 }
 
+
+.winnerphoto {
+  height: 60%;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  border-radius: 30px;
+
+
+}
+
+.finalistphoto {
+  height: 40%;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -6198,6 +6218,16 @@ color: none !important;
   .newscontainer {
     max-width: 300px;
   }
+
+  .finalistphoto {
+    height: 25%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+
 
 }
 
