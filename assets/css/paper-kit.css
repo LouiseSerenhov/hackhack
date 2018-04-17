@@ -6249,13 +6249,7 @@ color: none !important;
   max-width: 200px;
 }
 
-.finalistphoto {
-  height: 5%;
-  border-radius: 30px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 
 }
 
@@ -6350,6 +6344,13 @@ iframe {
 {
   .homebodysm {
     width: 129%;
+    }
+    .finalistphoto {
+      height: 15%;
+      border-radius: 30px;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
 }
 
