@@ -6221,7 +6221,13 @@ color: none !important;
     max-width: 300px;
   }
 
-
+  .finalistphoto {
+    height: 25%;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   
 
 
@@ -6241,6 +6247,14 @@ color: none !important;
   }
 .maxnewsphone{
   max-width: 200px;
+}
+
+.finalistphoto {
+  height: 5%;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 }
