@@ -6143,8 +6143,10 @@ color: none !important;
 .finalistphoto {
   height: 40%;
   border-radius: 30px;
+  margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+ 
 }
 
 
@@ -6219,12 +6221,7 @@ color: none !important;
     max-width: 300px;
   }
 
-  .finalistphoto {
-    height: 25%;
-    border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+
   
 
 
