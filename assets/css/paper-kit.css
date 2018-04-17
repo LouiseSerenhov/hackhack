@@ -6128,6 +6128,9 @@ color: none !important;
 
 }
 
+.samephoto {
+  width: 100%;
+}
 
 .winnerphoto {
   height: 60%;
@@ -6141,7 +6144,6 @@ color: none !important;
 }
 
 .finalistphoto {
-  height: 40%;
   border-radius: 30px;
   margin: auto;
   margin-top: 20px;
@@ -6221,14 +6223,7 @@ color: none !important;
     max-width: 300px;
   }
 
-  .finalistphoto {
-    height: 25%;
-    border-radius: 30px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
+ 
 
 
 
@@ -6345,13 +6340,7 @@ iframe {
   .homebodysm {
     width: 129%;
     }
-    .finalistphoto {
-      height: 15%;
-      border-radius: 30px;
-      margin: auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
+
 }
 
 
