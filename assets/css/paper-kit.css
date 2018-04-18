@@ -3251,13 +3251,7 @@ textarea.form-control {
     transform: translate3d(0px, 0px, 0px);
   }
 
-  .navbar-nav .dropdown-menu:before,
-  #dropdown-row .dropdown .dropdown-menu:before,
-  .card.card-just-text .dropdown .dropdown-menu:before,
-  .card-just-text .dropdown .dropdown-menu:before,
-  .dropdown-btn .dropdown-menu:before {
 
-  }
 
   #dropdown-row .dropdown .dropdown-menu:before {
     left: 12px !important;
@@ -4549,9 +4543,7 @@ textarea.form-control {
       opacity: 1;
     }
   }
-  .navbar-nav {
-    /* margin: 1px -15px; */
-  }
+ 
   .navbar-nav .open .dropdown-menu > li > a {
     padding: 15px 15px 5px 50px;
   }
